@@ -1,5 +1,5 @@
 # LoanDefaultPrediction
-The dataset consists of the following details on loans taken by different customers:__
+The dataset consists of the following details on loans taken by different customers:\
 • ID: A unique identifier for every financial loan that is being considered.__
 • Loan type: Type of loan taken (Two types, ‘A’ or ‘B’).__
 • Occupation type: Occupation of the customer (Three occupation types, ‘X’, ‘Y’, ‘Z’).__
