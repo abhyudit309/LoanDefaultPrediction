@@ -1,4 +1,4 @@
-# LoanDefaultPrediction
+# Loan Default Prediction
 The dataset consists of the following details on loans taken by different customers:\
 • ID: A unique identifier for every financial loan that is being considered.\
 • Loan type: Type of loan taken (Two types, ‘A’ or ‘B’).\
