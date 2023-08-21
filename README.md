@@ -1,5 +1,7 @@
 # MS4610 Final Project: Loan Default Prediction
 
+See [`Project_Report.pdf`](Project_Report.pdf) for a description of the project implementation.
+
 The dataset consists of the following details on loans taken by different customers:
 
 * ID: A unique identifier for every financial loan that is being considered.
@@ -23,4 +25,4 @@ A total of 8 models were experimented with, which include:
 7. XGBoost Model
 8. Neural Network Model
 
-We selected the XGBoost Model and the Neural Network Model, which gave us an accuracy of 98.65% and 98.59% respectively. The [`NN Model`](NN Model) folder contains a Jupyter notebook named [`MS4610_Project_Neural_Network.ipynb`](MS4610_Project_Neural_Network.ipynb), and the predicted labels of the test set from the Neural Network model in a file named 'pred_y_Neural_Network.csv'. The 'XGB Model' folder contains 3 Jupyter notebooks named 'Data_Analysis.ipynb', 'Dataset_Choice_Using_CV+Validation.ipynb' and 'Model Choice and Parameter Analysis.ipynb', and the predicted labels of the test set from the XGBoost model in a file named 'pred_y_XGB.csv'. Kindly refer to 'Project_Report.pdf' for more details.
+We selected the XGBoost Model and the Neural Network Model, which gave us an accuracy of 98.65% and 98.59% respectively. The [`NN Model`](https://github.com/abhyudit309/LoanDefaultPrediction/tree/main/NN%20Model) folder contains a Jupyter notebook named [`MS4610_Project_Neural_Network.ipynb`](https://github.com/abhyudit309/LoanDefaultPrediction/blob/main/NN%20Model/MS4610_Project_Neural_Network.ipynb), and the predicted labels of the test set from the Neural Network model in a file named [`pred_y_Neural_Network.csv`](https://github.com/abhyudit309/LoanDefaultPrediction/blob/main/NN%20Model/pred_y_Neural_Network.csv). The [`XGB Model`](https://github.com/abhyudit309/LoanDefaultPrediction/tree/main/XGB%20Model) folder contains 3 Jupyter notebooks named [`Data_Analysis.ipynb`](https://github.com/abhyudit309/LoanDefaultPrediction/blob/main/XGB%20Model/Data_Analysis.ipynb), [`Dataset_Choice_Using_CV+Validation.ipynb`](https://github.com/abhyudit309/LoanDefaultPrediction/blob/main/XGB%20Model/Dataset_Choice_Using_CV%2BValidation.ipynb) and [`Model Choice and Parameter Analysis.ipynb`](https://github.com/abhyudit309/LoanDefaultPrediction/blob/main/XGB%20Model/Model%20Choice%20and%20Parameter%20Analysis.ipynb), and the predicted labels of the test set from the XGBoost model in a file named [`pred_y_XGB.csv`](https://github.com/abhyudit309/LoanDefaultPrediction/blob/main/XGB%20Model/pred_y_XGB.csv).
