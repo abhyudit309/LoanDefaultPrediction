@@ -13,7 +13,7 @@ The dataset consists of the following details on loans taken by different custom
 * Score1, Score2, Score3, Score4, Score5: Represents five different metrics calculated by the organization, about the customer and the loan that is being considered.
 * Label: ‘0’ means non-default, and ‘1’ means default on that loan.
 
-Using the above information and the data, we built models that predict whether a loan will go default or not, and to understand which of the features are important and helpful in the prediction. The dataset has been split into training and test sets. The [`data`](data) folder contains the CSV files for train_x, train_y, and test_x. The train_y file consists of the “Label” that is mentioned above, and train_x consists of the other features. 
+Using the above information and the data, we built models that predict whether a loan will go default or not, and to understand which of the features are important and helpful in the prediction. The dataset has been split into training and test sets. The [`data`](data) folder contains the CSV files [`train_x.csv`](https://github.com/abhyudit309/LoanDefaultPrediction/blob/main/data/train_x.csv), [`train_y.csv`](https://github.com/abhyudit309/LoanDefaultPrediction/blob/main/data/train_y.csv), and [`test_x.csv`](https://github.com/abhyudit309/LoanDefaultPrediction/blob/main/data/test_x.csv). The [`train_y.csv`](https://github.com/abhyudit309/LoanDefaultPrediction/blob/main/data/train_y.csv) file consists of the “Label” that is mentioned above, and [`train_x.csv`](https://github.com/abhyudit309/LoanDefaultPrediction/blob/main/data/train_x.csv) consists of the other features. 
 
 A total of 8 models were experimented with, which include:
 1. Support Vector Machines (4 kernel types)
